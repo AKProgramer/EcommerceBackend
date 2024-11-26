@@ -34,7 +34,9 @@ if (missingEnvVars.length > 0) {
 }
 
 // Middleware
-app.use(cors({ origin: process.env.FRONTEND_URL || '*', credentials: true }));
+app.use(cors({ origin: process.env.FRONTEND_URL || '*',
+     methods: ['GET', 'POST', 'PUT', 'DELETE'],
+      credentials: true }));
 app.use(express.json());
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 app.use(
@@ -91,12 +93,12 @@ mongoose
     .catch((err) => console.log(err));
 
 // Routes
-app.use('/api/auth', authRoutes);
-app.use('/api/products', productRoutes);
-app.use('/api/categories', categoryRoutes);
-app.use('/api/cart', cartRoutes);
-app.use('/api/orders', orderRoutes);
-app.use('/api/addresses', addressRoutes);
-app.use('/api/brands', brandRoutes);
+app.use(authRoutes);
+app.use( productRoutes);
+app.use(categoryRoutes);
+app.use(cartRoutes);
+app.use(orderRoutes);
+app.use(addressRoutes);
+app.use(brandRoutes);
 
 module.exports = app;
