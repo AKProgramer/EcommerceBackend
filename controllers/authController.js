@@ -198,5 +198,5 @@ module.exports.deleteUser = async (req, res) => {
 };
 module.exports.google_auth_callback = async (req, res) => {
     const { token, user } = req.user;
-    res.redirect(`http://localhost:3000?token=${token}&userId=${user._id}`);
+    res.redirect(`${process.env.FRONTEND_URL}?token=${token}&userId=${user._id}`);
 };
