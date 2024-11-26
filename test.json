@@ -1,0 +1,134 @@
+[
+    {
+      "_id": "669a25df0bfed25305524895",
+      "addressId": "66992060d6563f57423fd3d2",
+      "email": "alihassandev84@gmail.com",
+      "items": [
+        {
+          "productId": "669b3c0f3f123c00123defgh",
+          "quantity": 2
+        }
+      ],
+      "totalCost": 2323,
+      "status": "DELIVERED",
+      "paymentMethod": "CASH",
+      "createdAt": "2024-07-19T08:37:51.051Z",
+      "updatedAt": "2024-07-19T08:37:51.051Z",
+      "__v": 0
+    },
+    {
+      "_id": "669a25df0bfed25305524896",
+      "addressId": "66992060d6563f57423fd3d3",
+      "email": "janedoe@example.com",
+      "items": [
+        {
+          "productId": "669b3c0f3f123c00123defgh",
+          "quantity": 1
+        },
+        {
+          "productId": "669b3c0f3f123c00123defgi",
+          "quantity": 3
+        }
+      ],
+      "totalCost": 4599,
+      "status": "PENDING",
+      "paymentMethod": "JAZZCASH",
+      "createdAt": "2024-07-20T10:22:31.123Z",
+      "updatedAt": "2024-07-20T10:22:31.123Z",
+      "__v": 0
+    },
+    {
+      "_id": "669a25df0bfed25305524897",
+      "addressId": "66992060d6563f57423fd3d4",
+      "email": "johnsmith@example.com",
+      "items": [
+        {
+          "productId": "669b3c0f3f123c00123defgj",
+          "quantity": 5
+        }
+      ],
+      "totalCost": 11500,
+      "status": "CONFIRMED",
+      "paymentMethod": "EASYPAISA",
+      "createdAt": "2024-07-21T14:45:00.000Z",
+      "updatedAt": "2024-07-21T14:45:00.000Z",
+      "__v": 0
+    },
+    {
+      "_id": "669a25df0bfed25305524898",
+      "addressId": "66992060d6563f57423fd3d5",
+      "email": "mariam.ahmed@example.com",
+      "items": [
+        {
+          "productId": "669b3c0f3f123c00123defgk",
+          "quantity": 2
+        },
+        {
+          "productId": "669b3c0f3f123c00123defgl",
+          "quantity": 1
+        }
+      ],
+      "totalCost": 3200,
+      "status": "READYFORPICKUP",
+      "paymentMethod": "CASH",
+      "createdAt": "2024-07-22T12:00:00.000Z",
+      "updatedAt": "2024-07-22T12:00:00.000Z",
+      "__v": 0
+    },
+    {
+      "_id": "669a25df0bfed25305524899",
+      "addressId": "66992060d6563f57423fd3d6",
+      "email": "hamza.khan@example.com",
+      "items": [
+        {
+          "productId": "669b3c0f3f123c00123defgm",
+          "quantity": 4
+        }
+      ],
+      "totalCost": 8800,
+      "status": "CANCELLED",
+      "paymentMethod": "CASH",
+      "createdAt": "2024-07-23T09:30:00.000Z",
+      "updatedAt": "2024-07-23T09:30:00.000Z",
+      "__v": 0
+    },
+    {
+      "_id": "669a25df0bfed25305524900",
+      "addressId": "66992060d6563f57423fd3d7",
+      "email": "sara.ali@example.com",
+      "items": [
+        {
+          "productId": "669b3c0f3f123c00123defgn",
+          "quantity": 3
+        },
+        {
+          "productId": "669b3c0f3f123c00123defgo",
+          "quantity": 2
+        }
+      ],
+      "totalCost": 6700,
+      "status": "DELIVERED",
+      "paymentMethod": "JAZZCASH",
+      "createdAt": "2024-07-24T11:45:00.000Z",
+      "updatedAt": "2024-07-24T11:45:00.000Z",
+      "__v": 0
+    },
+    {
+      "_id": "669a25df0bfed25305524901",
+      "addressId": "66992060d6563f57423fd3d8",
+      "email": "zainab.akram@example.com",
+      "items": [
+        {
+          "productId": "669b3c0f3f123c00123defgp",
+          "quantity": 6
+        }
+      ],
+      "totalCost": 13800,
+      "status": "PENDING",
+      "paymentMethod": "EASYPAISA",
+      "createdAt": "2024-07-25T13:15:00.000Z",
+      "updatedAt": "2024-07-25T13:15:00.000Z",
+      "__v": 0
+    }
+  ]
+  
